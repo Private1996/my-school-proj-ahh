@@ -16,8 +16,8 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
   startMozzi(CONTROL_RATE);
-  channels[0].note.setFreq(440); //test thingy, to test if the code work as intended
-  channels[0].velocity = 127;
+  //channels[0].note.setFreq(440); //test thingy, to test if the code work as intended
+  //channels[0].velocity = 127;
 }
 
 
@@ -52,3 +52,4 @@ void loop() {
     }
   }
 }
+
